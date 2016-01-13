@@ -1,0 +1,7 @@
+// test
+#res <down>
+#ack <up>
+#full <down>
+var child
+child -> res <3 ack;
+return child;
